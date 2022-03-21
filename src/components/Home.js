@@ -1,4 +1,6 @@
+import userEvent from "@testing-library/user-event";
 import React from "react";
+import { username, city } from src/data/userEvent.js;
 
 function Home() {
   return (
@@ -9,3 +11,5 @@ function Home() {
     </div>
   );
 }
+
+export default Home;
